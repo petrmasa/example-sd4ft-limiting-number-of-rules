@@ -1,0 +1,43 @@
+Done. Total verifications : 21456, rules 33,control number:0, times: prep 7.575253486633301, processing 55.18397259712219
+Step 1, rules_count=33, act_base = 1000, act_ratioconf = 1.5
+RESULT ACHIEVED. RatioConf = 1.5, Base = 1000, Rules count = 33
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1  1877  1660    1.574    +0.090  Area(2,Rural) & Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     2  2014  1732    1.579    +0.090  Area(2,Rural) & Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     3  1902  1695    1.549    +0.086  Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     4  2053  1779    1.553    +0.086  Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     5  1877  3125    1.506    +0.083  Area(2,Rural) & Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25)
+     6  1122  2094    1.665    +0.008  Light(1,Daylight) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+     7  1122  3075    1.544    +0.007  Light(1,Daylight) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+     8  3621  1660    1.623    +0.098  Area(2,Rural) & Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+     9  3891  1732    1.630    +0.098  Area(2,Rural) & Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    10  1757  1019    1.509    +0.079  Light(1,Daylight) & Manoeuvre(17,Going ahead right-hand bend) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    11  3688  1695    1.607    +0.095  Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    12  3979  1779    1.609    +0.094  Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    13  1167  1201    1.539    +0.088  Area(2,Rural) & Light(1,Daylight) & Manoeuvre(16,Going ahead left-hand bend) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    14  1427  1544    1.517    +0.082  Area(2,Rural) & Light(1,Daylight) & Manoeuvre(17,Going ahead right-hand bend) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    15  1295  1439    1.514    +0.082  Area(2,Rural) & Light(1,Daylight) & Manoeuvre(17,Going ahead right-hand bend) & Road_Type(6,Single carriageway) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    16  1645  1133    1.501    +0.086  Area(2,Rural) & Light(1,Daylight) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    17  1796  1218    1.507    +0.087  Area(2,Rural) & Light(1,Daylight) & Manoeuvre(18,Going ahead other) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    18  3621  3125    1.553    +0.091  Area(2,Rural) & Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    19  3891  3312    1.545    +0.089  Area(2,Rural) & Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    20  1010  1115    1.533    +0.084  Light(1,Daylight) & Manoeuvre(17,Going ahead right-hand bend) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    21  3688  3192    1.539    +0.088  Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    22  3979  3405    1.525    +0.086  Light(1,Daylight) & Speed_limit(60) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    23  1800  1551    1.508    +0.074  Speed_limit(70) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    24  1016  1086    1.668    +0.011  Area(2,Rural) & Light(1,Daylight) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    25  1312  1662    1.516    +0.076  Area(2,Rural) & Light(1,Daylight) & Road_Type(3,Dual carriageway) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    26  1057  1283    1.591    +0.084  Area(2,Rural) & Light(1,Daylight) & Road_Type(3,Dual carriageway) & Speed_limit(70) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    27  1190  1486    1.554    +0.081  Area(2,Rural) & Light(1,Daylight) & Speed_limit(70) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    28  1920  2094    1.520    +0.006  Light(1,Daylight) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    29  1065  1151    1.524    +0.006  Light(1,Daylight) & Manoeuvre(18,Going ahead other) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    30  1143  1411    1.597    +0.084  Light(1,Daylight) & Road_Type(3,Dual carriageway) & Speed_limit(70) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    31  1482  1589    1.527    +0.006  Light(1,Daylight) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    32  1295  1632    1.572    +0.083  Light(1,Daylight) & Speed_limit(70) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    33  1016  1548    1.551    +0.010  Area(2,Rural) & Light(1,Daylight) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

@@ -1,0 +1,47 @@
+Done. Total verifications : 4176, rules 37,control number:0, times: prep 2.303959846496582, processing 4.103243350982666
+Step 4, rules_count=37, act_base = 125.0, act_ratioconf = 1.289351851851852
+RESULT ACHIEVED. RatioConf = 1.289351851851852, Base = 125.0, Rules count = 37
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   540   225    1.394    +0.199  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75)
+     2   200   146    1.371    +0.007  Vehicle_Age(13 14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     3   540   588    1.397    +0.200  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     4   151   176    1.437    +0.008  Vehicle_Age(13 14 15) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     5   200   261    1.384    +0.007  Vehicle_Age(13 14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     6   208   301    1.296    +0.006  Vehicle_Age(13 14 15 16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     7   125   189    1.302    +0.006  Vehicle_Age(14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     8   540  1325    1.317    +0.170  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     9  1201   225    1.416    +0.210  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    10   407   146    1.396    +0.008  Vehicle_Age(13 14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    11   435   170    1.333    +0.007  Vehicle_Age(13 14 15 16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    12   231   661    1.294    +0.176  Vehicle_Type(21,Goods 7.5 tonnes +) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    13  1201   588    1.418    +0.211  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    14   319   186    1.324    +0.006  Vehicle_Age(12 13) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    15   410   249    1.303    +0.006  Vehicle_Age(12 13 14) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    16   469   290    1.316    +0.006  Vehicle_Age(12 13 14 15) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    17   584   375    1.340    +0.007  Vehicle_Age(12 13 14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    18   233   135    1.400    +0.007  Vehicle_Age(13 14) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    19   292   176    1.398    +0.007  Vehicle_Age(13 14 15) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    20   407   261    1.410    +0.008  Vehicle_Age(13 14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    21   435   301    1.362    +0.007  Vehicle_Age(13 14 15 16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    22   265   189    1.363    +0.007  Vehicle_Age(14 15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    23   293   229    1.311    +0.007  Vehicle_Age(14 15 16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    24   174   126    1.435    +0.009  Vehicle_Age(15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    25   202   166    1.351    +0.008  Vehicle_Age(15 16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    26   143   125    1.359    +0.008  Vehicle_Age(16-20 >20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    27   167   232    1.474    +0.017  Vehicle_Type(Motorcycle over 500cc) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    28  1201  1325    1.337    +0.181  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    29  3905   225    1.425    +0.215  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75)
+    30  3905   588    1.428    +0.216  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    31   279   126    1.291    +0.006  Vehicle_Age(15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    32   403   232    1.304    +0.011  Vehicle_Type(Motorcycle over 500cc) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    33  3905  1325    1.347    +0.186  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    34  4922   225    1.379    +0.192  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75)
+    35  4922   588    1.382    +0.193  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    36   374   126    1.324    +0.006  Vehicle_Age(15 16-20) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    37  4922  1325    1.303    +0.162  Vehicle_Type(Pedal cycle) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

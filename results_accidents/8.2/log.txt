@@ -1,0 +1,40 @@
+Done. Total verifications : 50720, rules 30,control number:0, times: prep 3.611586332321167, processing 66.4041178226471
+Step 4, rules_count=30, act_base = 375.0, act_ratioconf = 1.3819444444444446
+RESULT ACHIEVED. RatioConf = 1.3819444444444446, Base = 375.0, Rules count = 30
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   406   576    1.444    +0.069  Hour(9 10) => Severity(Serious) | --- : Driver_Age_Band(Over 75) x Driver_Age_Band(16 - 20)
+     2   406  1292    1.407    +0.065  Hour(9 10) => Severity(Serious) | --- : Driver_Age_Band(Over 75) x Driver_Age_Band(16 - 20 21 - 25)
+     3   406  3301    1.456    +0.070  Hour(9 10) => Severity(Serious) | --- : Driver_Age_Band(Over 75) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+     4   382  3632    1.386    +0.065  Hour(15) => Severity(Serious) | --- : Driver_Age_Band(Over 75) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+     5   562   751    1.388    +0.055  Hour(8 9) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20)
+     6   885   576    1.414    +0.064  Hour(9 10) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20)
+     7   539   620    1.403    +0.066  Hour(10) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20 21 - 25)
+     8   562  4154    1.426    +0.058  Hour(8 9) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+     9   885  3301    1.426    +0.066  Hour(9 10) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    10   539  1651    1.406    +0.066  Hour(10) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    11   440   684    1.403    +0.055  Hour(7 8) & Day_of_Week(3-Tuesday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    12   385   417    1.540    +0.095  Hour(9 10) & Day_of_Week(1-Sunday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    13   466   459    1.448    +0.063  Hour(9 10) & Day_of_Week(4-Wednesday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    14   503   479    1.473    +0.087  Hour(10 11) & Day_of_Week(1-Sunday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    15   556   440    1.465    +0.068  Hour(10 11) & Day_of_Week(4-Wednesday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    16   559   576    1.397    +0.075  Hour(11 12) & Day_of_Week(1-Sunday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    17   440   415    1.550    +0.006  Hour(15 16) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    18   456   496    1.547    +0.007  Hour(16 17) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    19   389   548    1.422    +0.006  Hour(17 18) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    20   406   547    1.417    +0.006  Day_of_Week(4-Wednesday) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    21   458   586    1.483    +0.007  Day_of_Week(5-Thursday) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    22   385   613    1.405    +0.078  Hour(9 10) & Day_of_Week(1-Sunday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    23   466   662    1.405    +0.059  Hour(9 10) & Day_of_Week(4-Wednesday) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    24   398   424    1.558    +0.008  Hour(10 11) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    25   404   382    1.412    +0.068  Hour(10 11) & Year(2014) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    26   393   427    1.753    +0.008  Hour(13 14) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    27   402   503    1.549    +0.006  Hour(14 15) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    28   440   637    1.408    +0.005  Hour(15 16) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    29   456   735    1.421    +0.006  Hour(16 17) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    30   458   804    1.431    +0.006  Day_of_Week(5-Thursday) => Severity(Fatal) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

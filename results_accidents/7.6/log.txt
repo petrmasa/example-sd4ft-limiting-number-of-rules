@@ -1,0 +1,45 @@
+Done. Total verifications : 22256, rules 35,control number:0, times: prep 2.514160633087158, processing 23.733328104019165
+Step 7, rules_count=35, act_base = 78.125, act_ratioconf = 1.2531828703703707
+RESULT ACHIEVED. RatioConf = 1.2531828703703707, Base = 78.125, Rules count = 35
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   136    86    1.300    +0.193  District(555,Rother) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75)
+     2   302    96    1.255    +0.168  District(751,Carmarthenshire) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75)
+     3   302    96    1.255    +0.168  Highway(W06000010,Carmarthenshire) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75)
+     4   245    89    1.283    +0.041  Police(62,South Wales) => Severity(Serious) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75)
+     5   163    97    1.353    +0.213  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     6   180   126    1.264    +0.173  District(461,Tendring) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     7    79   119    1.642    +0.008  Police(Metropolitan Police) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     8    86    83    1.272    +0.150  District(385,South Northamptonshire) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     9   163   179    1.311    +0.193  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    10    79   274    1.593    +0.008  Police(Metropolitan Police) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    11   251    86    1.278    +0.178  District(555,Rother) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    12   484    89    1.265    +0.038  Police(62,South Wales) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    13   265    97    1.337    +0.203  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    14   214   119    1.536    +0.007  Police(Metropolitan Police) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    15   103    92    1.275    +0.055  District(114,Wigan) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    16   116   104    1.314    +0.051  District(150,Sunderland) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    17    86   113    1.332    +0.050  District(19,Bromley) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    18   205   198    1.273    +0.055  District(203,Kirklees) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    19   100    86    1.437    +0.085  District(309,Wolverhampton) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    20   265   179    1.296    +0.184  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    21   103    92    1.275    +0.055  Highway(E08000010,Wigan) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    22   116   104    1.314    +0.051  Highway(E08000024,Sunderland) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    23   100    86    1.437    +0.085  Highway(E08000031,Wolverhampton) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    24   205   198    1.273    +0.055  Highway(E08000034,Kirklees) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    25    86   113    1.332    +0.050  Highway(E09000006,Bromley) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    26   112    93    1.406    +0.007  Police(13,West Yorkshire) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    27   116   109    1.320    +0.008  Police(Greater Manchester) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    28   214   274    1.490    +0.007  Police(Metropolitan Police) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    29  3810   148    1.255    +0.154  Police(Cheshire) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75)
+    30   866   101    1.264    +0.163  District(129,Cheshire East) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75)
+    31   487    97    1.297    +0.179  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    32   263   104    1.267    +0.044  District(150,Sunderland) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    33   487   179    1.258    +0.160  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    34   263   104    1.267    +0.044  Highway(E08000024,Sunderland) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    35   615    97    1.263    +0.159  District(451,Braintree) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

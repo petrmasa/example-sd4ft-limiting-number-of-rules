@@ -1,0 +1,49 @@
+Done. Total verifications : 15952, rules 39,control number:0, times: prep 6.399604797363281, processing 25.14568328857422
+Step 3, rules_count=39, act_base = 250.0, act_ratioconf = 1.3472222222222223
+RESULT ACHIEVED. RatioConf = 1.3472222222222223, Base = 250.0, Rules count = 39
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   314   536    1.355    +0.071  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75) x Driver_Age_Band(16 - 20)
+     2   445   363    1.394    +0.078  Highway(E10000012,Essex) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     3   435   390    1.372    +0.074  Highway(E10000014,Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     4   414   286    1.534    +0.073  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     5   414   286    1.534    +0.073  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     6   672   536    1.413    +0.083  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20)
+     7   414   556    1.465    +0.066  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25)
+     8   414   556    1.465    +0.066  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25)
+     9   672  1002    1.357    +0.075  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25)
+    10   414  1129    1.368    +0.056  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    11   414  1129    1.368    +0.056  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    12   286   631    1.387    +0.074  Police(60,North Wales) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    13   672  1917    1.364    +0.076  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    14   772   363    1.360    +0.071  Highway(E10000012,Essex) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    15   801   390    1.450    +0.090  Highway(E10000014,Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    16   769   286    1.603    +0.082  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    17   769   286    1.603    +0.082  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    18  1221   536    1.443    +0.089  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20)
+    19   279   263    1.347    +0.081  Highway(E06000049,Cheshire East) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    20   343   350    1.384    +0.065  Highway(E10000003,Cambridgeshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    21   801   703    1.416    +0.085  Highway(E10000014,Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    22   769   556    1.531    +0.076  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    23   332   324    1.353    +0.068  Highway(E10000031,Warwickshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    24   332   324    1.353    +0.068  Police(23,Warwickshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    25   769   556    1.531    +0.076  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    26  1221  1002    1.386    +0.081  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25)
+    27   279   438    1.431    +0.095  Highway(E06000049,Cheshire East) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    28   251   379    1.349    +0.082  Highway(E06000050,Cheshire West and Chester) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    29   343   626    1.369    +0.063  Highway(E10000003,Cambridgeshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    30   284   382    1.350    +0.071  Highway(E10000009,Dorset) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    31   801  1246    1.422    +0.086  Highway(E10000014,Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    32   769  1129    1.430    +0.066  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    33   332   624    1.355    +0.068  Highway(E10000031,Warwickshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    34   332   624    1.355    +0.068  Police(23,Warwickshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    35   769  1129    1.430    +0.066  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    36  1221  1917    1.394    +0.082  Police(Hampshire) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35)
+    37   279   577    1.375    +0.086  Highway(E06000049,Cheshire East) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    38   769  1509    1.362    +0.058  Highway(E10000030,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+    39   769  1509    1.362    +0.058  Police(45,Surrey) => Severity(Serious) | --- : Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55) x Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

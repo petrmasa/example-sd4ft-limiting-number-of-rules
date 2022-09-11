@@ -1,0 +1,55 @@
+Done. Total verifications : 48848, rules 45,control number:0, times: prep 2.2695729732513428, processing 62.487388610839844
+Step 5, rules_count=45, act_base = 187.5, act_ratioconf = 1.3182870370370372
+RESULT ACHIEVED. RatioConf = 1.3182870370370372, Base = 187.5, Rules count = 45
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   269   336    1.393    +0.008  Area(1,Urban) & Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     2   239   310    1.386    +0.008  Area(1,Urban) & Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     3   266   347    1.335    +0.006  Area(1,Urban) & Light(4,Darkness - lights lit) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     4   391   900    1.349    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     5   296   692    1.403    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     6   257   625    1.386    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     7   295   724    1.345    +0.005  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     8   428  1069    1.361    +0.005  Area(1,Urban) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     9   374   984    1.338    +0.004  Area(1,Urban) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    10   213   202    1.381    +0.067  Area(1,Urban) & Light(1,Daylight) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    11   762   202    1.422    +0.009  Area(1,Urban) & Light(4,Darkness - lights lit) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    12   898   492    1.339    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    13   677   391    1.363    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    14   593   347    1.367    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    15   675   395    1.326    +0.005  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    16   969   578    1.355    +0.005  Area(1,Urban) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    17   853   521    1.352    +0.005  Area(1,Urban) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    18   318   250    1.329    +0.061  Area(1,Urban) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    19   211   194    1.455    +0.077  Light(1,Daylight) & Road_Type(6,Single carriageway) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    20   242   232    1.388    +0.067  Light(1,Daylight) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    21   792   209    1.363    +0.008  Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    22   310   245    1.329    +0.061  Road_Type(6,Single carriageway) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    23   363   285    1.336    +0.061  Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    24  1262  1383    1.344    +0.005  Area(1,Urban) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    25   762   433    1.406    +0.009  Area(1,Urban) & Light(4,Darkness - lights lit) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    26   551   326    1.390    +0.010  Area(1,Urban) & Light(4,Darkness - lights lit) & Manoeuvre(18,Going ahead other) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    27   410   257    1.415    +0.010  Area(1,Urban) & Light(4,Darkness - lights lit) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    28   366   236    1.407    +0.010  Area(1,Urban) & Light(4,Darkness - lights lit) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    29   419   263    1.392    +0.009  Area(1,Urban) & Light(4,Darkness - lights lit) & Manoeuvre(18,Going ahead other) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    30   579   336    1.488    +0.010  Area(1,Urban) & Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    31   516   310    1.475    +0.009  Area(1,Urban) & Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    32   587   347    1.445    +0.008  Area(1,Urban) & Light(4,Darkness - lights lit) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    33   898   900    1.401    +0.007  Area(1,Urban) & Manoeuvre(18,Going ahead other) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    34   677   692    1.463    +0.007  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    35   593   625    1.445    +0.007  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    36   215   273    1.329    +0.069  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    37   675   724    1.382    +0.006  Area(1,Urban) & Manoeuvre(18,Going ahead other) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    38   969  1069    1.419    +0.006  Area(1,Urban) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    39   853   984    1.390    +0.005  Area(1,Urban) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    40   968  1151    1.318    +0.004  Area(1,Urban) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    41   792   444    1.337    +0.008  Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    42   603   366    1.353    +0.007  Light(4,Darkness - lights lit) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    43   683   408    1.332    +0.007  Light(4,Darkness - lights lit) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    44   706   775    1.350    +0.005  Manoeuvre(18,Going ahead other) & Road_Type(6,Single carriageway) & Speed_limit(30) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    45   242   305    1.328    +0.067  Manoeuvre(18,Going ahead other) & Speed_limit(20) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0

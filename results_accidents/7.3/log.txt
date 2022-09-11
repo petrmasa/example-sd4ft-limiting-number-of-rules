@@ -1,0 +1,55 @@
+Done. Total verifications : 10048, rules 45,control number:0, times: prep 3.2871017456054688, processing 14.761958122253418
+Step 6, rules_count=45, act_base = 31.25, act_ratioconf = 1.2009387860082308
+RESULT ACHIEVED. RatioConf = 1.2009387860082308, Base = 31.25, Rules count = 45
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1   798    34    1.224    +0.152  Journey(Part of work) & Driver_IMD(7.0 8.0 9.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75)
+     2    91    56    1.963    +0.016  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     3    91    38    2.037    +0.015  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     4    99    62    1.821    +0.013  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+     5    91   151    1.654    +0.013  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     6    91    93    1.665    +0.012  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     7    99   166    1.573    +0.010  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+     8  1703    71    1.213    +0.043  Sex(Male) & Driver_IMD(1.0) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75)
+     9  2011    34    1.231    +0.157  Journey(Part of work) & Driver_IMD(7.0 8.0 9.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75)
+    10  1703   219    1.211    +0.043  Sex(Male) & Driver_IMD(1.0) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    11   198    40    1.242    +0.005  Sex(Male) & Driver_IMD(6.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    12   669    76    1.224    +0.157  Journey(Part of work) & Driver_IMD(9.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    13  1245   144    1.211    +0.149  Journey(Part of work) & Driver_IMD(9.0 10.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75)
+    14   207    56    1.792    +0.013  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    15   198    38    1.851    +0.013  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    16  1191   455    1.227    +0.005  Journey(5 Other/Not known) & Driver_IMD(1.0 2.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    17   222    62    1.585    +0.009  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    18   207   151    1.510    +0.010  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    19    39    85    1.272    +0.040  Journey(3,Taking pupil to/from school) & Driver_IMD(2.0) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    20    39    94    1.215    +0.164  Journey(3,Taking pupil to/from school) & Driver_IMD(6.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    21   198    93    1.513    +0.009  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    22  1191   804    1.247    +0.005  Journey(5 Other/Not known) & Driver_IMD(1.0 2.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    23  1361   929    1.237    +0.005  Journey(5 Other/Not known) & Driver_IMD(1.0 2.0 3.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    24   993   711    1.209    +0.004  Journey(5 Other/Not known) & Driver_IMD(2.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    25  1163   836    1.203    +0.004  Journey(5 Other/Not known) & Driver_IMD(2.0 3.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    26   222   166    1.369    +0.007  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    27  4480    34    1.209    +0.142  Journey(Part of work) & Driver_IMD(7.0 8.0 9.0) => Severity(Slight) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75)
+    28   227    35    1.242    +0.005  Sex(Male) & Driver_IMD(10.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75)
+    29   393    56    1.589    +0.010  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    30   227    70    1.227    +0.005  Sex(Male) & Driver_IMD(10.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    31   352    38    1.719    +0.011  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    32   443    62    1.471    +0.007  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    33   393   151    1.339    +0.007  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    34   100    47    1.265    +0.034  Journey(3,Taking pupil to/from school) & Driver_IMD(3.0 4.0 5.0) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    35   352    93    1.406    +0.007  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    36   443   166    1.271    +0.005  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    37   311    35    1.290    +0.006  Sex(Male) & Driver_IMD(10.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75)
+    38   523    56    1.481    +0.008  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    39   311    70    1.274    +0.006  Sex(Male) & Driver_IMD(10.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    40   435    38    1.614    +0.009  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    41   587    62    1.374    +0.006  Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65)
+    42   523   151    1.248    +0.005  Sex(Male) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    43   182    47    1.213    +0.027  Journey(3,Taking pupil to/from school) & Driver_IMD(3.0 4.0 5.0) => Severity(Serious) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    44   435    93    1.320    +0.006  Journey(5 Other/Not known) & Driver_IMD(1.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+    45   373   145    1.203    +0.004  Journey(5 Other/Not known) & Driver_IMD(8.0) => Severity(Fatal) | --- : Driver_Age_Band(16 - 20 21 - 25 26 - 35 36 - 45) x Driver_Age_Band(Over 75 66 - 75 56 - 65 46 - 55)
+
+RESULT ACHIEVED
+
+Process finished with exit code 0
