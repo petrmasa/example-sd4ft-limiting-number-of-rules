@@ -1,5 +1,5 @@
 # DEMONSTRATION OF ALGORITHM TO FIND REQUIRED NUMBER OF RULES FOR CLEVERMINER PROCEDURE SD4ft-Miner, dataset Adults
-# (c) 2022 Petr Masa, allrights reserved
+# (c) 2022-2023 Petr Masa, allrights reserved
 
 import json
 

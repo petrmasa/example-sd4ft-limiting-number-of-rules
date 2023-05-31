@@ -1,4 +1,4 @@
-This folder contains folders with results. In subsection, 1 task is solved. Results of this task is in folder with section number.
+This folder contains folders with results. All out of 10 tasks is in separate folder with appropriate name.
 
 Each folder contains:
 
