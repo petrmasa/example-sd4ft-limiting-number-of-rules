@@ -1,6 +1,6 @@
 # Old drivers worse than the young one and *Vehicle* group
 
-After 5 iterations we get 39 true SD4ft-rules.
+After 2 iterations we get 39 true SD4ft-rules.
 
 ## The results can be summarised this way: 
 
