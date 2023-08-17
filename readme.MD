@@ -16,8 +16,7 @@ The structure of the repository is the following:
 + *adults_profile.html* – contains profiles of the attributes of the Adults data set,
 + *autocnt_sd4ft_adults.py* – contains source code for replicating experiments on dataset Adults.
 + *results_adults* – contain results of experiments on dataset Adults, each experiment is in a subfolder with a name containing the expected range of rule count(e.g. task1_30_to_50).
-
-## Structure of the individual folders with experiments
++ *code_results_next* – contain code and results of experiments on next 6 public datasets
 
 The repository also contains supplementary information (readme files). Data set Adults is downloaded directly from the UCI ML repository. The structure of the folder with results is the following:
 

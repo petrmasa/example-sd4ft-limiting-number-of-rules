@@ -22,54 +22,34 @@ def getlabels(s):
 
 
 
-features = ["Age", "Workclass", "fnlwgt", "Education", "Education_Num", "Martial_Status",
-        "Occupation", "Relationship", "Race", "Sex", "Capital_Gain", "Capital_Loss",
-        "Hours_per_week", "Country", "Target"]
+original=pd.read_csv("w:\\development\\cleverminer\\_data\\loan_approval_dataset.csv ")
+
+print(original.columns)
+#exit(0)
 
 
+age_bins=[0,0.1,1,2,3,100000]
+original[' no_of_dependents'] = pd.cut(original[' no_of_dependents'], include_lowest=True, bins = age_bins, labels = getlabels(age_bins), ordered=True)
 
-edu_cat = ["Preschool","1st-4th", "5th-6th", "7th-8th","9th","10th","11th","12th","HS-grad","Some-college","Assoc-voc","Assoc-acdm","Bachelors","Masters","Prof-school","Doctorate"]
-edu_cat_type =CategoricalDtype(categories=edu_cat, ordered=True)
-
-
-# Comment this two lines of code and uncomment following 2 if you have downloaded files locally
-train_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data'
-test_url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.test'
-
-
-#train_url = 'w:\\development\\cleverminer\\_data\\adult.data'
-#test_url = 'w:\\development\\cleverminer\\_data\\adult.test'
-
+original[' income_annum'] = pd.qcut(original[' income_annum'],q=5)
+original[' loan_amount'] = pd.qcut(original[' loan_amount'],q=5)
+original[' loan_term'] = pd.qcut(original[' loan_term'],q=5)
+original[' cibil_score'] = pd.qcut(original[' cibil_score'],q=5)
+original[' residential_assets_value'] = pd.qcut(original[' residential_assets_value'],q=5)
+original[' commercial_assets_value'] = pd.qcut(original[' commercial_assets_value'],q=5)
+original[' luxury_assets_value'] = pd.qcut(original[' luxury_assets_value'],q=5)
+original[' bank_asset_value'] = pd.qcut(original[' bank_asset_value'],q=5)
 
 
-original_train = pd.read_csv(train_url, names=features, sep=r'\s*,\s*',
-                             engine='python', na_values="?")
-original_test = pd.read_csv(test_url, names=features, sep=r'\s*,\s*',
-                            engine='python', na_values="?", skiprows=1)
+df=original
 
-original_test.Target = original_test.Target.str.replace('.','')
+df = df.drop('loan_id', axis=1)
 
-
-original = pd.concat([original_train, original_test])
-
-original['Education'] = original['Education'].astype('category').cat.reorder_categories(edu_cat,ordered=True)
-
-age_bins=[10,20,30,40,50,60,70,90]
-original['Age_b'] = pd.cut(original['Age'], include_lowest=True, bins = age_bins, labels = getlabels(age_bins), ordered=True)
-hpw_bins=[0,10,20,30,40,50,60,70,100]
-original['Hours_per_week_b'] = pd.cut(original['Hours_per_week'], include_lowest=True, bins = hpw_bins, labels = getlabels(hpw_bins), ordered=True)
-cl_bins=[-1,0,1500,1600,1700,1800,1900,2000,2100,2200,2300,2400,2500,4400]
-original['Capital_Loss_b'] = pd.cut(original['Capital_Loss'], include_lowest=True, bins = cl_bins,labels = getlabels(cl_bins), ordered=True)
-cg_bins = [-1,0,2000,3000,4000,5000,7000,10000,20000,99000,100000]
-original['Capital_Gain_b'] = pd.cut(original['Capital_Gain'], include_lowest=True, bins = cg_bins , labels = getlabels(cg_bins), ordered=True)
-
-df = original[['Capital_Gain_b','Capital_Loss_b','Hours_per_week_b','Occupation','Martial_Status','Relationship','Age_b','Education','Sex','Country','Race','Workclass','Target']]
-
-
+print(df)
 
 #CHANGE FOLLOWING 2 LINES TO SET REQUIRED RULE COUNT
-hypo_lowerrange=25
-hypo_upperrange=25
+hypo_lowerrange=30
+hypo_upperrange=50
 
 conf_mult = 1.2
 base_mult = 2
@@ -104,28 +84,33 @@ while not(req_stop):
                       quantifiers={'Base1': req_base, 'Base2': req_base, 'Ratiopim': req_ratioconf},
                       ante={
                           'attributes': [
-                              {'name': 'Capital_Loss_b', 'type': 'seq', 'minlen': 1, 'maxlen': 3},
-                              {'name': 'Hours_per_week_b', 'type': 'seq', 'minlen': 1, 'maxlen': 3},
-                              {'name': 'Workclass', 'type': 'subset', 'minlen': 1, 'maxlen': 1},
-                              {'name': 'Occupation', 'type': 'subset', 'minlen': 1, 'maxlen': 1}
+                              {'name': ' no_of_dependents', 'type': 'seq', 'minlen': 1, 'maxlen': 3},
+                              {'name': ' income_annum', 'type': 'seq', 'minlen': 1, 'maxlen': 3},
+                              {'name': ' self_employed', 'type': 'subset', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' loan_amount', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' loan_term', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' cibil_score', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' residential_assets_value', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' commercial_assets_value', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' luxury_assets_value', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
+                              {'name': ' bank_asset_value', 'type': 'seq', 'minlen': 1, 'maxlen': 1}
                           ], 'minlen': 1, 'maxlen': 2, 'type': 'con'},
                       succ={
                           'attributes': [
-                              {'name': 'Target', 'type': 'subset', 'minlen': 1, 'maxlen': 1},
-                              {'name': 'Capital_Gain_b', 'type': 'seq', 'minlen': 1, 'maxlen': 1},
-                          ], 'minlen': 2, 'maxlen': 2, 'type': 'con'},
+                              {'name': ' loan_status', 'type': 'subset', 'minlen': 1, 'maxlen': 1},
+                          ], 'minlen': 1, 'maxlen': 1, 'type': 'con'},
                       frst={
                           'attributes': [
-                              {'name': 'Age_b', 'type': 'lcut', 'minlen': 1, 'maxlen': 4}
+                              {'name': ' education', 'type': 'lcut', 'minlen': 1, 'maxlen': 4}
                           ], 'minlen': 1, 'maxlen': 1, 'type': 'con'},
                       scnd={
                           'attributes': [
-                              {'name': 'Age_b', 'type': 'rcut', 'minlen': 1, 'maxlen': 4}
+                              {'name': ' education', 'type': 'rcut', 'minlen': 1, 'maxlen': 4}
                           ], 'minlen': 1, 'maxlen': 1, 'type': 'con'}
                       )
 
     a_file = open("w:\\development\\cleverminer\\logs\\result"+str(step)+".json", "w")
-    json.dump(clm.result, a_file)
+    json.dump(str(clm.result), a_file)
     a_file.close()
 
     act_hypo_cnt= clm.get_rulecount() #len(clm.result.get("rules"))
